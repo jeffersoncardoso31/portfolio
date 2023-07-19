@@ -153,6 +153,8 @@ body.clarear{
 .foto-perfil img{
     width: 7rem;
     filter: drop-shadow(5px 5px 60px black);
+    position: relative;
+    top: 1rem;
 }
 .textoCorpo, .tituloCorpo{
     color: var(--font-color);
@@ -180,6 +182,7 @@ body.clarear{
     flex-wrap: wrap;
     cursor: pointer;
     gap: .5rem;
+    visibility: hidden;
 }
 .skill{
     border-top-right-radius: 2rem;
