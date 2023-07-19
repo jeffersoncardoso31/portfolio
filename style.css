@@ -182,7 +182,6 @@ body.clarear{
     flex-wrap: wrap;
     cursor: pointer;
     gap: .5rem;
-    visibility: hidden;
 }
 .skill{
     border-top-right-radius: 2rem;
