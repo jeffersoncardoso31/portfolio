@@ -180,7 +180,6 @@ body.clarear{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    cursor: pointer;
     gap: .5rem;
 }
 .skill{
@@ -188,6 +187,8 @@ body.clarear{
     border-bottom-left-radius: 2rem;
     overflow: hidden;
     padding: .5rem;
+    cursor: pointer;
+    background-color: transparent;
 }
 .skill:hover{
     transform: scale(1.1);
@@ -236,6 +237,66 @@ body.clarear{
 }
 .git:hover{
     background-color:  #f0503078;
+}
+.conhecimento{
+    width: 10rem;
+    height: 11rem;
+    margin: auto;
+    overflow: hidden;
+}
+.habilidadesConhecimento{
+    width: 600%;
+    height: 11rem;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.skillConhecimento{
+    width: 10rem;
+    height: 10rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    transition: 1s ;
+}
+.listConhecimento{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
+.skillConhecimento .textoCorpo{
+    margin-top: .3rem;
+}
+.listConhecimento li{
+    font-size: .6rem;
+    font-style: italic;
+    color: var(--font-color);
+}
+.htmlConhecimento{
+    margin-left: 0rem;
+    border: 2px solid #E75C22;
+    background-color: #e75d226c;
+}
+.cssConhecimento{
+    border: 2px solid #347DC6;
+    background-color: #347dc672;
+}
+.javascriptConhecimento{
+    border: 2px solid #FFDA3E;
+    background-color: #ffd83e6a;
+}
+.reactConhecimento{
+    border: 2px solid #61DBFB;
+    background-color: #61dcfb6f;
+}
+.nodeConhecimento{
+    border: 2px solid #90C53F;
+    background-color: #8fc53f6c;
+}
+.gitConhecimento{
+    border: 2px solid #F05030;
+    background-color: #f050306f;
 }
 .containerProjetos{
     max-width: 25rem;
@@ -287,6 +348,10 @@ body.clarear{
     transform: scale(1.2);
     transition-duration: .4s;
     z-index: 1;
+}
+.redesSociais button{
+    background-color: transparent;
+    border: none;
 }
 .redesSociais{
     display: flex;
