@@ -266,7 +266,6 @@ body.clarear{
     transform: scale(1.2);
     transition-duration: .4s;
     z-index: 1;
-    /* background-color: ; */
 }
 .redesSociais{
     display: flex;
@@ -453,5 +452,11 @@ footer{
     }
     .redesSociais{
         flex-direction: row;
+    }   
+    .skill:hover{
+        transform: none;
+    } 
+    .repositorio:hover{
+        transform: none;
     }
 }
