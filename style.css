@@ -191,7 +191,7 @@ body.clarear{
 }
 .skill:hover{
     transform: scale(1.1);
-    transition-duration: .5s;
+    transition-duration: .5s; 
 }
 .html5{
     border: 2px solid #E75C22;
@@ -217,6 +217,25 @@ body.clarear{
 .git{
     border: 2px solid #F05030;
     box-shadow: 5px 5px 70px #F05030;
+}
+.html5:hover{
+    background-color:  #e75d2292; 
+}
+.css3:hover{
+    background-color:  #347dc680;
+}
+.javascript:hover{
+    background-color:  #ffd83e7a;
+    
+}
+.react:hover{
+    background-color:  #61dcfb7e;
+}
+.node:hover{
+    background-color:  #8fc53f76;
+}
+.git:hover{
+    background-color:  #f0503078;
 }
 .containerProjetos{
     max-width: 25rem;
@@ -460,5 +479,8 @@ footer{
     } 
     .repositorio:hover{
         transform: none;
+    }
+    .html5:hover, .css3:hover, .javascript:hover, .react:hover, .node:hover, .git:hover{
+        background-color:  transparent;
     }
 }

@@ -44,9 +44,3 @@ btn.addEventListener('click',()=>{
     alert('Recebi seu email e assim que possível entrarei em contato. Obrigado!!!')
 })
 
-// ScrollReveal----------------------------------
-window.sr = ScrollReveal({ reset: true });
-
-sr.reveal('.skill',{rotate: {x:100 , y:100, z:0}, delay:500,duration: 1000});
-
-sr.reveal('.repositorio',{rotate: {x:0 , y:500, z:0}, delay:500,duration: 1000});
