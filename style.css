@@ -428,6 +428,7 @@ footer{
 @media screen and (max-width: 900px){
     *{
         font-size: 30px;
+        cursor: default;
     }
     .menu-desktop{
         display: none;
@@ -514,7 +515,6 @@ footer{
     }
     .skills{
         flex-wrap: wrap;
-        cursor: pointer;
         gap: .5rem;
     }
     .skill{
@@ -523,7 +523,6 @@ footer{
         flex-direction: column;
         align-items: center;
         width: 5rem;
-        cursor: default;
     }
     #habilidades img{
         width: 2rem;
@@ -549,4 +548,5 @@ footer{
     .html5:hover, .css3:hover, .javascript:hover, .react:hover, .node:hover, .git:hover{
         background-color:  transparent;
     }
+    
 }
